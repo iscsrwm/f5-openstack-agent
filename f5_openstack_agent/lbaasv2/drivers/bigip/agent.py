@@ -71,7 +71,7 @@ def main():
     """F5 LBaaS agent for OpenStack."""
     cfg.CONF.register_opts(OPTS)
     cfg.CONF.register_opts(manager.OPTS)
-    cfg.CONF.register_opts(interface.OPTS)
+#   cfg.CONF.register_opts(interface.OPTS)
 
     config.register_agent_state_opts_helper(cfg.CONF)
     config.register_root_helper(cfg.CONF)
